@@ -7,7 +7,7 @@ int main() {
 
 	setlocale(0, "rus");
 
-	double Pi = 3.141592653589793;
+	const double Pi = 3.141592653589793;
 	double r;
 
 	cout  << "Введите радиус окружности: ";
