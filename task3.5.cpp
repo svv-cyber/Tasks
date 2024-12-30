@@ -26,10 +26,10 @@ int main()
 	bool exprV = !(A  && C) || B;
 
 	//Выполнение г) А и не В или С;
-	bool exprG = (A && !B) || !C;
+	bool exprG = (A && !B) || C;
 
 	//Выполнение д) А и(не В или С);
-	bool exprD = A && (!B && C);
+	bool exprD = A && (!B || C);
 
 	// Выполнение е) А или(не(В и С));
 	bool exprE = A || (!(B && C));
